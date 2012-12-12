@@ -5,7 +5,8 @@ uses
   Unit1 in 'Unit1.pas' {Form1},
   SortedList in 'SortedList.pas',
   sv in 'sv.pas',
-  normal in 'normal.pas';
+  normal in 'normal.pas',
+  generator in 'generator.pas';
 
 {$R *.res}
 

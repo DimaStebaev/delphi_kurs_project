@@ -15,8 +15,8 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object Gauge1: TGauge
-    Left = 256
-    Top = 344
+    Left = 504
+    Top = 16
     Width = 153
     Height = 153
     BorderStyle = bsNone
@@ -48,20 +48,6 @@ object Form1: TForm1
       YValues.Multiplier = 1.000000000000000000
       YValues.Order = loNone
     end
-    object Series2: TBarSeries
-      Marks.ArrowLength = 20
-      Marks.Visible = True
-      SeriesColor = clGreen
-      MultiBar = mbStacked
-      XValues.DateTime = False
-      XValues.Name = 'X'
-      XValues.Multiplier = 1.000000000000000000
-      XValues.Order = loAscending
-      YValues.DateTime = False
-      YValues.Name = 'Bar'
-      YValues.Multiplier = 1.000000000000000000
-      YValues.Order = loNone
-    end
   end
   object Button1: TButton
     Left = 536
@@ -71,6 +57,34 @@ object Form1: TForm1
     Caption = 'Button1'
     TabOrder = 1
     OnClick = Button1Click
+  end
+  object Chart2: TChart
+    Left = 32
+    Top = 280
+    Width = 400
+    Height = 250
+    BackWall.Brush.Color = clWhite
+    BackWall.Brush.Style = bsClear
+    Title.Text.Strings = (
+      'TChart')
+    View3D = False
+    TabOrder = 2
+    object Series2: TLineSeries
+      Marks.ArrowLength = 8
+      Marks.Visible = False
+      SeriesColor = clRed
+      Pointer.InflateMargins = True
+      Pointer.Style = psRectangle
+      Pointer.Visible = False
+      XValues.DateTime = False
+      XValues.Name = 'X'
+      XValues.Multiplier = 1.000000000000000000
+      XValues.Order = loAscending
+      YValues.DateTime = False
+      YValues.Name = 'Y'
+      YValues.Multiplier = 1.000000000000000000
+      YValues.Order = loNone
+    end
   end
   object MainMenu1: TMainMenu
     Left = 824
