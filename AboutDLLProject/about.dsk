@@ -1,0 +1,195 @@
+[Closed Files]
+File_0=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\Unit1.pas',0,1,377,1,390,1,0
+File_1=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\sv.pas',0,1,23,46,37,0,0
+File_2=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\task.pas',0,1,238,13,233,0,0
+File_3=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\Unit2.pas',0,1,145,15,158,0,0
+File_4=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\normal.pas',0,1,38,13,45,0,0
+File_5=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\generator.pas',0,1,51,10,66,0,0
+File_6=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\Unit3.pas',0,1,23,1,39,0,0
+File_7=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Þðà\zeta\Unit1.pas',0,1,224,41,231,1,0
+File_8=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Þðà\Unit1.pas',0,1,171,50,183,1,0
+File_9=SourceModule,'C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\SortedList.pas',0,1,1,19,112,0,0
+
+[Modules]
+Module0=C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\AboutDLLProject\about.dpr
+Module1=C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\AboutDLLProject\Unit1.pas
+Count=2
+EditWindowCount=1
+
+[C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\AboutDLLProject\about.dpr]
+ModuleType=SourceModule
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\AboutDLLProject\Unit1.pas]
+ModuleType=SourceModule
+FormState=1
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[EditWindow0]
+ViewCount=2
+CurrentView=0
+View0=0
+View1=1
+CodeExplorer=CodeExplorer@EditWindow0
+MessageView=MessageView@EditWindow0
+Create=1
+Visible=1
+State=0
+Left=200
+Top=140
+Width=868
+Height=505
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=860
+ClientHeight=471
+LeftPanelSize=140
+LeftPanelClients=CodeExplorer@EditWindow0
+LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
+RightPanelSize=0
+BottomPanelSize=0
+BottomPanelClients=MessageView@EditWindow0
+BottomPanelData=00000400010000000B0000004D6573736167655669657700000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+
+[View0]
+Module=C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\AboutDLLProject\about.dpr
+CursorX=13
+CursorY=30
+TopLine=9
+LeftCol=1
+
+[View1]
+Module=C:\Program Files\Borland\Delphi7\Projects\Delphi\kurs\AboutDLLProject\Unit1.pas
+CursorX=1
+CursorY=1
+TopLine=1
+LeftCol=1
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=1280
+Height=112
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1272
+ClientHeight=78
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=369
+Top=372
+Width=438
+Height=305
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=279
+TBDockHeight=305
+LRDockWidth=438
+Dockable=1
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=114
+Width=156
+Height=84
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=376
+Width=190
+Height=399
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=373
+TBDockHeight=399
+LRDockWidth=190
+Dockable=1
+SplitPos=85
+ArrangeBy=Name
+SelectedItem=Caption
+ExpandedItems=Font,Font.Style
+HiddenCategories=
+
+[ObjectTree]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=112
+Width=190
+Height=262
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=182
+ClientHeight=236
+TBDockHeight=262
+LRDockWidth=190
+Dockable=1
+
+[CodeExplorer@EditWindow0]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=12
+Width=140
+Height=459
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=140
+ClientHeight=459
+TBDockHeight=305
+LRDockWidth=140
+Dockable=1
+
+[MessageView@EditWindow0]
+Create=1
+Visible=0
+State=0
+Left=12
+Top=0
+Width=848
+Height=85
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=848
+ClientHeight=85
+TBDockHeight=85
+LRDockWidth=443
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+

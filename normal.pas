@@ -5,12 +5,14 @@ interface
 uses SV, generator;
 
 type
-  TNormal = class(TSV)
+  TNormal = class(TContinuousSVWithAutoInvF)
   private
     m, s: double;
   public
     constructor Create(m, s: double);
     function p(x: double):double;override;
+    function GetM: double;
+    function GetS: double;
   end;
 
   TNoramlProcessGenerator = class(TGenerator)
@@ -27,10 +29,20 @@ uses math;
 
 constructor TNormal.Create(m, s: double);
 begin
-inherited Create;
+inherited Create(m - 7*s, m + 7*s);
 self.m := m;
 self.s := s;
-self.InitializeInvF(m - 10*s, m+ 10*s);
+//self.InitializeInvF(m - 10*s, m+ 10*s);
+end;
+
+function TNormal.GetM: double;
+begin
+result := m;
+end;
+
+function TNormal.GetS: double;
+begin
+result := s;
 end;
 
 function TNormal.p(x: double): double;
